@@ -1,0 +1,57 @@
+.table {
+    flex: 1;
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 300px;
+}
+
+th, td {
+    color: #fff;
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr {
+    background-color: #2e2e2e;
+}
+
+tr:nth-child(even) {
+    background-color: #3b3b3b;
+}
+
+tr:hover {
+    background-color: #444;
+}
+
+.deleteButton {
+    background-color: black;
+    color: green;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: green;
+    color: white;
+}
+
+.playButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.playButton:hover {
+    background-color: darkblue;
+}
