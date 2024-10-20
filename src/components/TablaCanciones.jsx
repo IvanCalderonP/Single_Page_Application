@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/TablaCanciones.module.css"; // Para los estilos personalizados
+import styles from "../styles/TablaCanciones.module.css";
 
 const TablaCanciones = ({ songs, onDelete, onPlay }) => {
     return (

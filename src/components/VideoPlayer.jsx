@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/VideoPlayer.module.css"; // Para los estilos personalizados
+import styles from "../styles/VideoPlayer.module.css";
 
 const VideoPlayer = ({ videoId }) => {
     return (

@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import FormularioCancion from "./FormularioCancion";
 import TablaCanciones from "./TablaCanciones";
 import VideoPlayer from "./VideoPlayer";
-import styles from "../styles/Canciones.module.css"; // Para los estilos personalizados
+import styles from "../styles/Canciones.module.css";
 
 const Canciones = () => {
     const { reset } = useForm();

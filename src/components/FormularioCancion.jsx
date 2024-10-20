@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import styles from "../styles/FormularioCancion.module.css"; // Para los estilos personalizados
+import styles from "../styles/FormularioCancion.module.css";
 
 const FormularioCancion = ({ onAddSong }) => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
